@@ -1,0 +1,7 @@
+    int x = 5;
+    int y = 10;
+    System.out.println("Toplam:" + (x+y));
+    System.out.println("Fark :" + (x-y));
+    System.out.println("Çarpım: " + (x*y));
+    System.out.println("Bölüm: " + (x/(double)y));
+    System.out.println("Kalan: " + (x%y));
