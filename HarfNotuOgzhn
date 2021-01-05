@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class main {
+public static Scanner gir = new Scanner(System.in);
+
+public static void main(String[] args) {
+    System.out.println("Notunuzu giriniz: ");
+    int Not = gir.nextInt();
+    if (Not >= 90) {
+        System.out.println("Harf Notunuz: A");
+    } else if (Not >= 80 && Not <= 89) {
+        System.out.println("Harf Notunuz: B");
+    } else if (Not >= 70 && Not <= 79) {
+        System.out.println("Harf Notunuz: C");
+    } else System.out.println("Harf Notunuz: F");
+}
+}
