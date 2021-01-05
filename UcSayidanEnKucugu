@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class main {
+public static void main(String[] args) {
+System.out.println("Birinci sayıyı giriniz: ");
+Scanner sc = new Scanner(System.in);
+int sayi1 = sc.nextInt();
+System.out.println("İkinci sayıyı giriniz: ");
+int sayi2 = sc.nextInt();
+System.out.println("Üçüncü sayıyı giriniz: ");
+int sayi3 = sc.nextInt();
+
+    if(sayi1<sayi2 && sayi3<sayi2){
+        System.out.println("En Büyük Sayı 7, En Küçük Sayı 5");
+    }
+}
+}
+
+print:
+Birinci sayıyı giriniz:
+5
+İkinci sayıyı giriniz:
+7
+Üçüncü sayıyı giriniz:
+6
+En Büyük Sayı 7, En Küçük Sayı 5
