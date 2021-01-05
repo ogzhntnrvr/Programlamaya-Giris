@@ -1,0 +1,14 @@
+public class Main {
+
+public static void main(String[] args) {
+int sayi1 = 5;
+int sayi2 = 10;
+System.out.println("Sayılar eşit değildir: " + (sayi1!=sayi2));
+System.out.println("Sayılar farklıdır: " + (sayi1!=sayi2));
+System.out.println("İlk sayı küçüktür: " + (sayi1<sayi2));
+System.out.println("İkinci sayı küçük değildir: " + (sayi2>sayi1));
+System.out.println("İlk sayı küçük eşittir 5'e :" + (sayi1<=5));
+System.out.println("İkinci sayı küçük eşittir 10'a: " + (sayi2<=10));
+
+}
+}
